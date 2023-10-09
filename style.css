@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: green;
+    margin: 0;
+    padding: 0;
+     background-image: url('pil.jfif');
+            background-size: cover; /* Adjust to cover the entire viewport */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+}
+
+h1 {
+    font-size: 10vh;
+    color: #E80505;
+    margin-bottom: 10vh;
+}
+
+.choice-text {
+    font-size: 6vh;
+    color: #ff00ff;
+}
+
+#truthOrDare {
+    font-size: 5vh;
+    color: blue;
+}
+
+#dareOrTruth {
+    font-size: 5vh;
+    color: red;
+}
+
+.truth-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 4vh;
+    border: none;
+    padding: 2vh 4vh;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.dare-button {
+    background-color: red;
+    color: white;
+    padding: 2vh 4vh;
+    font-size: 4vh;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.challenge-text {
+    font-size: 8vh;
+    color: #ff00ff;
+    margin-top: 5vh;
+    padding: 5vh;
+}
+
+ .social-icons {
+            margin-top: 10vh; /* Adjust as needed */
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 10px; /* Adjust as needed */
+        }
+
+        .social-icons img {
+            width: 40px; /* Adjust as needed */
+            height: 40px; /* Adjust as needed */
+            border: none;
+        }
